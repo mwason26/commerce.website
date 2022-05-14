@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette');
+
+body {
+  font-family: 'Courgette', cursive;
+}
+
+
+.button-style{
+  text-decoration: none;
+  background-color: transparent;
+  border-radius: 5px;
+  width: 150px;
+  height: 50px;
+
+}
+.button-style:hover{
+  text-decoration: none;
+  background-color: forestgreen;
+  border-radius: 5px;
+  width: 150px;
+  height: 50px;
+
+}
+
+
+.App{
+  background-image: url('../public/bgImg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.App hr{
+  color:black !important;
+  height: 15px !important;
+}

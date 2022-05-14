@@ -1,0 +1,18 @@
+.container {
+    width: 80%;
+    height:500px;
+    margin: auto;
+    padding: 10px;
+  }
+  
+  .community-text {
+    width: 1200px;
+    height: 200px;
+  }  
+  
+
+  .community-img img {
+    margin-left: 5%;
+    width: 1000px;
+    height: 250px
+}
