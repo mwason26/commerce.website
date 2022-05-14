@@ -1,0 +1,30 @@
+.container {
+    width: 80%;
+    height:500px;
+    margin: auto;
+    padding: 10px;
+  }
+  
+  .sell-text {
+      margin-top:60px;
+    width: 50%;
+    height: 500px;
+    float: left;
+    
+  }
+
+
+  
+  .sell-img {
+      width: 50%;
+    margin-left: 50%;
+    height: 500px;
+    
+  }
+
+  .sell-img img {
+    margin:90px;
+    padding: 10px;
+    width: 400px;
+    height: 250px
+}
