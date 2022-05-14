@@ -19,7 +19,7 @@ return (
     Another benefit of starting your online store is that you will have complete control over the revenue you make. You will not have to part with the profits in terms of the commission fees you will otherwise have to give online marketplaces. 
        
        </p>
-       <button className='button-style'>Get Started ➡️</button>
+       <button className='button-style' onClick={()=> window.open("/marketPlace","_self")}>Get Started ➡️</button>
       </div>
       <div className="market-img">
         <img src={marketImg}></img>
