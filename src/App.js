@@ -7,21 +7,18 @@ import Community from './components/Community/community';
 
 
 
+
 function App() {
   return (
 
     <div className="App">
       <div>
-      
-      <Header/>
-      <br/>
-      
+      <h1 style={{textAlign:"center"}}>Welcome to COMMERCE</h1>
       <Sell/>
-      <hr/>
+      <br/>
       <MarketPlace/>
-      <hr/>
+      <br/>
       <Community/>
-      
       </div>
     </div>
   );

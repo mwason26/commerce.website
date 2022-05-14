@@ -20,7 +20,7 @@ return (
         who you sell it to and how you sell it. Beyond that, sales involves staying focused on the details of your product and customers. As a sales program continues you will want to keep paying attention to changing trends and the needs or desires of your customers.
         By observing these changes you will be able to adjust your program and keep your sales strong.
         </p>
-        <button className='button-style'>Sell your first Product💲</button>
+        <button className='button-style' onClick={()=> window.open("/sellProduct","_blank")}>Sell your first Product💲</button>
       </div>
       <div className="sell-img">
         <img src={sellImg}></img>
