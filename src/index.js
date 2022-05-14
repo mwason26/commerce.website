@@ -15,7 +15,7 @@ root.render(
   
 
     <Header/>
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
     <Routes>
         <Route path="/" element={<App />} />
         <Route path="/sellProduct" element={<SellDesc/>} />
