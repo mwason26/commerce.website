@@ -53,9 +53,6 @@ const Header = () => {
         {toggleMenu && (
             
           <div className="navbar-small_overlay flex__center slide-bottom">
-              <div className="navbar-logo" >
-                <img src={logo} alt="logo" onClick={home()}/>
-              </div>  
             <ul className="navbar-small_links">
               <li><a href="/sell" onClick={() => setToggleMenu(false)}>Sell</a></li>
               <li><a href="/marketPlace" onClick={() => setToggleMenu(false)}>MarketPlace</a></li>

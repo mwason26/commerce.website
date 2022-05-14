@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Sell from './components/Sell/Sell';
 import MarketPlace from './components/MarketPlace/MarketPlace';
 import Community from './components/Community/community';
+import Contact from './components/Contact/contact';
 
 
 
@@ -19,6 +20,8 @@ function App() {
       <MarketPlace/>
       <br/>
       <Community/>
+      <br/>
+      <Contact/>
       </div>
     </div>
   );

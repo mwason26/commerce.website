@@ -8,6 +8,7 @@ import MarketPlace from './components/MarketPlace/MarketPlace';
 import { Routes, Route, Link } from "react-router-dom";
 import SellDesc from './components/Sell/sellDesc';
 import Header from './components/Header';
+import MarketDesc from './components/MarketPlace/marketPlaceDesc';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -19,6 +20,7 @@ root.render(
     <Routes>
         <Route path="/" element={<App />} />
         <Route  path="/sellProduct" element={<SellDesc/>} />
+        <Route  path="/marketplace" element={<MarketDesc/>} />
       </Routes>
     </BrowserRouter>
     </React.StrictMode>
