@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import MarketPlace from './components/MarketPlace/MarketPlace';
 import { Routes, Route, Link } from "react-router-dom";
 import SellDesc from './components/Sell/sellDesc';
@@ -15,12 +15,12 @@ root.render(
   
 
     <Header/>
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter>
     <Routes>
         <Route exact path="/" element={<App />} />
         <Route exact path="/sellProduct" element={<SellDesc/>} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
 </>
 );
 
