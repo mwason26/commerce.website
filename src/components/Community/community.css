@@ -16,3 +16,18 @@
     width: 1000px;
     height: 250px
 }
+
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.video-responsive iframe {
+  margin:5% 20% 20% 20%;
+  align-self: center;
+  height: 50%;
+  width: 50%;
+  position: absolute;
+}

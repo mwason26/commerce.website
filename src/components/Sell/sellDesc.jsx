@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { AnimatedOnScroll } from 'react-animated-css-onscroll';
 import {
     Row,Col,FormGroup,Input,Label,Form,Button, FormText
   } from 'reactstrap'
@@ -11,6 +12,7 @@ const preview = (e) => {
 }
 
 return(
+<AnimatedOnScroll animationIn="fadeInLeft">
 <section>   
 <div className='sellForm'>
     <br/>
@@ -115,6 +117,7 @@ return(
             </Form>
 </div>
 </section>
+</AnimatedOnScroll>
     )
 }
 
