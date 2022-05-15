@@ -94,16 +94,6 @@ return(
             &nbsp;<Label for="File">
                 File
                 </Label>
-                <Input
-                id="File"
-                name="file"
-                type="file"
-                multiple
-                accept='.png,.jpg'
-                />
-                <FormText>
-                Add photos of your product.
-                </FormText>
             </FormGroup>
             </Col>
             <input type="file" id="img" name="img" accept="image/*" className="w-100" onChange={(e)=>preview(e)}/>
